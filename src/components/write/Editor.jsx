@@ -61,6 +61,7 @@ const Editor = ({ title, body, onChangeField }) => {
     if (mounted.curent) return;
     mounted.current = true;
     quillInstance.current.root.innerHTML = body;
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const onChangeTitle = e => {
