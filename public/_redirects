@@ -1,1 +1,2 @@
-/api/* https://willog-backend.herokuapp.com/*
+/api/* https://willog-backend.herokuapp.com/api/:splat  200
+/*  /index.html 200
